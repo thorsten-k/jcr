@@ -64,7 +64,6 @@ public class CliJcr
 		}
 		
 		Node file = root.addNode(fileName,"nt:file");
-	
 		Node content = file.addNode("jcr:content","nt:resource");
 		
 		content.setProperty("jcr:encoding", "myProperty1");
