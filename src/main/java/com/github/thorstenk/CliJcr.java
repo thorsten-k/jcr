@@ -70,7 +70,7 @@ public class CliJcr
 		content.setProperty("jcr:encoding", "myProperty1");
 		
 		// Here I want to use my own property mame "x"
-//		content.setProperty("x", "myProperty2");
+		content.setProperty("x", "myProperty2");
 			
 		InputStream is = new ByteArrayInputStream(bytes);
 		Binary binary = session.getValueFactory().createBinary(is);
